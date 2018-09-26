@@ -65,8 +65,21 @@ a
 {color:plum;}
 
 @media (max-width: 800px) {
-    body{
-        background-color: red;
+    img {
+        margin: auto;       
 }
+    form{ 
+    display: flex;
+    justify-content: center;}
+   
+    form:first-child{ display: inline;
+    text-align: center;}
+    
+   
+    
 
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
 }
